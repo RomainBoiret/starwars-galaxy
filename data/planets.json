@@ -1,18 +1,390 @@
 [
   {
     "name": "Tatooine",
-    "region": "Outer Rim Territories",
-    "climate": "Arid",
-    "terrain": ["desert"],
-    "population": "200000",
-    "first_appearance": "A New Hope"
+    "region": "Mid Rim",
+    "climate": "dry",
+    "terrain": [
+      "urban"
+    ],
+    "population": "1342622551",
+    "first_appearance": "The Phantom Menace",
+    "lat": 45.5842,
+    "lng": -0.493
   },
   {
     "name": "Naboo",
+    "region": "Unknown Regions",
+    "climate": "arid",
+    "terrain": [
+      "ice",
+      "urban",
+      "plains"
+    ],
+    "population": "6579990267",
+    "first_appearance": "Revenge of the Sith",
+    "lat": -84.5122,
+    "lng": 35.1789
+  },
+  {
+    "name": "Coruscant",
     "region": "Mid Rim",
-    "climate": "Temperate",
-    "terrain": ["grassy hills", "swamps", "lakes"],
-    "population": "4500000000",
-    "first_appearance": "The Phantom Menace"
+    "climate": "arid",
+    "terrain": [
+      "jungle"
+    ],
+    "population": "6931574638",
+    "first_appearance": "The Last Jedi",
+    "lat": 74.0182,
+    "lng": -69.8865
+  },
+  {
+    "name": "Kamino",
+    "region": "Mid Rim",
+    "climate": "tropical",
+    "terrain": [
+      "urban"
+    ],
+    "population": "6559770391",
+    "first_appearance": "Return of the Jedi",
+    "lat": 54.2341,
+    "lng": -59.5815
+  },
+  {
+    "name": "Geonosis",
+    "region": "Core Worlds",
+    "climate": "tropical",
+    "terrain": [
+      "oceanic",
+      "ice",
+      "volcanoes"
+    ],
+    "population": "5131366553",
+    "first_appearance": "The Phantom Menace",
+    "lat": -38.0745,
+    "lng": -132.2435
+  },
+  {
+    "name": "Mustafar",
+    "region": "Outer Rim",
+    "climate": "dry",
+    "terrain": [
+      "oceanic",
+      "jungle"
+    ],
+    "population": "3808649625",
+    "first_appearance": "The Mandalorian",
+    "lat": -3.0634,
+    "lng": 67.4802
+  },
+  {
+    "name": "Hoth",
+    "region": "Inner Rim",
+    "climate": "humid",
+    "terrain": [
+      "mountains"
+    ],
+    "population": "8108950694",
+    "first_appearance": "The Mandalorian",
+    "lat": 12.2201,
+    "lng": 124.1966
+  },
+  {
+    "name": "Endor",
+    "region": "Outer Rim",
+    "climate": "dry",
+    "terrain": [
+      "oceanic"
+    ],
+    "population": "4502935768",
+    "first_appearance": "The Empire Strikes Back",
+    "lat": 82.4568,
+    "lng": -137.7076
+  },
+  {
+    "name": "Dagobah",
+    "region": "Unknown Regions",
+    "climate": "humid",
+    "terrain": [
+      "plains",
+      "mountains"
+    ],
+    "population": "8513968264",
+    "first_appearance": "The Last Jedi",
+    "lat": 18.3423,
+    "lng": -110.4823
+  },
+  {
+    "name": "Yavin IV",
+    "region": "Outer Rim",
+    "climate": "frozen",
+    "terrain": [
+      "plains"
+    ],
+    "population": "7240973140",
+    "first_appearance": "The Empire Strikes Back",
+    "lat": 46.4021,
+    "lng": -92.8149
+  },
+  {
+    "name": "Alderaan",
+    "region": "Outer Rim",
+    "climate": "temperate",
+    "terrain": [
+      "desert",
+      "swamps"
+    ],
+    "population": "7668907650",
+    "first_appearance": "A New Hope",
+    "lat": 79.4728,
+    "lng": -57.0953
+  },
+  {
+    "name": "Bespin",
+    "region": "Mid Rim",
+    "climate": "temperate",
+    "terrain": [
+      "ice"
+    ],
+    "population": "1877289723",
+    "first_appearance": "A New Hope",
+    "lat": 75.8938,
+    "lng": 112.286
+  },
+  {
+    "name": "Kashyyyk",
+    "region": "Inner Rim",
+    "climate": "arid",
+    "terrain": [
+      "plains",
+      "oceanic"
+    ],
+    "population": "9241179368",
+    "first_appearance": "Return of the Jedi",
+    "lat": -20.5093,
+    "lng": -11.6411
+  },
+  {
+    "name": "Utapau",
+    "region": "Core Worlds",
+    "climate": "arid",
+    "terrain": [
+      "desert",
+      "forest"
+    ],
+    "population": "3559304422",
+    "first_appearance": "The Mandalorian",
+    "lat": -40.2509,
+    "lng": 156.777
+  },
+  {
+    "name": "Jakku",
+    "region": "Core Worlds",
+    "climate": "temperate",
+    "terrain": [
+      "oceanic",
+      "forest",
+      "plains"
+    ],
+    "population": "625474765",
+    "first_appearance": "Attack of the Clones",
+    "lat": 81.9522,
+    "lng": 35.8185
+  },
+  {
+    "name": "Jedha",
+    "region": "Unknown Regions",
+    "climate": "dry",
+    "terrain": [
+      "jungle",
+      "mountains"
+    ],
+    "population": "4570130766",
+    "first_appearance": "Attack of the Clones",
+    "lat": 46.3237,
+    "lng": -2.0238
+  },
+  {
+    "name": "Lothal",
+    "region": "Core Worlds",
+    "climate": "dry",
+    "terrain": [
+      "ice",
+      "plains",
+      "urban"
+    ],
+    "population": "3891482358",
+    "first_appearance": "The Rise of Skywalker",
+    "lat": -16.0171,
+    "lng": 96.46
+  },
+  {
+    "name": "Scarif",
+    "region": "Unknown Regions",
+    "climate": "arid",
+    "terrain": [
+      "jungle",
+      "swamps"
+    ],
+    "population": "5964818142",
+    "first_appearance": "Attack of the Clones",
+    "lat": 55.2992,
+    "lng": -57.1553
+  },
+  {
+    "name": "Corellia",
+    "region": "Outer Rim",
+    "climate": "humid",
+    "terrain": [
+      "urban",
+      "mountains"
+    ],
+    "population": "4963098560",
+    "first_appearance": "The Last Jedi",
+    "lat": 88.4797,
+    "lng": -67.547
+  },
+  {
+    "name": "Dantooine",
+    "region": "Core Worlds",
+    "climate": "arid",
+    "terrain": [
+      "plains",
+      "forest"
+    ],
+    "population": "37991693",
+    "first_appearance": "The Empire Strikes Back",
+    "lat": 0.4986,
+    "lng": -162.4399
+  },
+  {
+    "name": "Felucia",
+    "region": "Outer Rim",
+    "climate": "arid",
+    "terrain": [
+      "urban",
+      "volcanoes"
+    ],
+    "population": "482832858",
+    "first_appearance": "The Force Awakens",
+    "lat": -6.9676,
+    "lng": 10.1085
+  },
+  {
+    "name": "Ilum",
+    "region": "Inner Rim",
+    "climate": "temperate",
+    "terrain": [
+      "oceanic",
+      "urban",
+      "swamps"
+    ],
+    "population": "6512859837",
+    "first_appearance": "Attack of the Clones",
+    "lat": 33.3376,
+    "lng": 55.0827
+  },
+  {
+    "name": "Mon Cala",
+    "region": "Core Worlds",
+    "climate": "frozen",
+    "terrain": [
+      "swamps",
+      "jungle"
+    ],
+    "population": "2490622922",
+    "first_appearance": "Attack of the Clones",
+    "lat": 72.457,
+    "lng": 171.613
+  },
+  {
+    "name": "Rodia",
+    "region": "Core Worlds",
+    "climate": "tropical",
+    "terrain": [
+      "desert",
+      "ice"
+    ],
+    "population": "3424760545",
+    "first_appearance": "The Phantom Menace",
+    "lat": 34.6745,
+    "lng": 153.1797
+  },
+  {
+    "name": "Sullust",
+    "region": "Inner Rim",
+    "climate": "frozen",
+    "terrain": [
+      "volcanoes",
+      "ice"
+    ],
+    "population": "715123258",
+    "first_appearance": "The Last Jedi",
+    "lat": -61.5282,
+    "lng": -57.6474
+  },
+  {
+    "name": "Zeffo",
+    "region": "Core Worlds",
+    "climate": "frozen",
+    "terrain": [
+      "desert"
+    ],
+    "population": "6050266605",
+    "first_appearance": "Return of the Jedi",
+    "lat": -76.7758,
+    "lng": 52.8508
+  },
+  {
+    "name": "Exegol",
+    "region": "Inner Rim",
+    "climate": "dry",
+    "terrain": [
+      "mountains",
+      "oceanic"
+    ],
+    "population": "4956727929",
+    "first_appearance": "The Force Awakens",
+    "lat": -41.814,
+    "lng": 12.6665
+  },
+  {
+    "name": "Ahch-To",
+    "region": "Outer Rim",
+    "climate": "temperate",
+    "terrain": [
+      "oceanic",
+      "swamps"
+    ],
+    "population": "488964660",
+    "first_appearance": "The Mandalorian",
+    "lat": -33.292,
+    "lng": 1.1827
+  },
+  {
+    "name": "Crait",
+    "region": "Inner Rim",
+    "climate": "temperate",
+    "terrain": [
+      "ice",
+      "oceanic",
+      "plains"
+    ],
+    "population": "828102401",
+    "first_appearance": "The Force Awakens",
+    "lat": -5.3924,
+    "lng": 148.7319
+  },
+  {
+    "name": "Mandalore",
+    "region": "Mid Rim",
+    "climate": "arid",
+    "terrain": [
+      "plains",
+      "mountains"
+    ],
+    "population": "2137516245",
+    "first_appearance": "The Force Awakens",
+    "lat": 28.1555,
+    "lng": -13.4207
   }
 ]

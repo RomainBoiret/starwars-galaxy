@@ -1,6 +1,8 @@
+<!-- app.vue -->
 <template>
-  <NuxtPage />
-  <h1>lol</h1>
+  <div class="min-h-screen bg-black text-white">
+    <NuxtPage />
+  </div>
 </template>
 
 <style global>
